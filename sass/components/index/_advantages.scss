@@ -1,0 +1,30 @@
+.advantages__item {
+  --grid__item: 4;
+}
+
+.advantages__thumb {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.advantages__text {
+  line-height: 1.71;
+  color: $primaryTextColor;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.advantages__title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $titleTextColor;
+}

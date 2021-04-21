@@ -1,0 +1,51 @@
+.hero-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.overlay {
+  height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../../../images/Hero_pic.jpg);
+}
+
+.hero-section__title {
+  color: $primaryWhiteColor;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.hero__button {
+  display: block;
+  background-color: $accentColor;
+  color: $primaryWhiteColor;
+  margin-right: auto;
+  margin-left: auto;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 32px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  outline: none;
+
+  &:hover,
+  &:focus {
+    background-color: $HoverColor;
+  }
+}
